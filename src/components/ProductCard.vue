@@ -2,7 +2,7 @@
   <div class="product-card" @click="handleClick">
     <div class="product-image">
      <img 
-        :src="product.image" 
+        :src="getImagePath(product.image)" 
         :alt="product.name"
         class="product-img"
       >
@@ -25,7 +25,8 @@
 </template>
 
 <script>
- import { useCartStore } from '@/stores/cartStore'
+import { useCartStore } from '@/stores/cartStore'
+
 export default {
   name: 'ProductCard',
   props: {
@@ -46,18 +47,23 @@ export default {
     }
   },
   methods: {
+    getImagePath(imagePath) {
+      // Odstráň lomku/bodku ak existuje
+      const cleanPath = imagePath.replace(/^[./]+/, '')
+      // Pridaj base URL z vite configu
+      return `${import.meta.env.BASE_URL}${cleanPath}`
+    },
     handleClick() {
       this.$emit('select-product', this.product.slug)
     },
-  handleAddToCart() {
-    const cartStore = useCartStore()
-    cartStore.addItem(this.product)
-    // voliteľné: alert alebo toast
-    alert(`Pridané: ${this.product.name}`)
-  },
-  formatPrice(price) {
-    return price.toFixed(2) + ' €'
-  }
+    handleAddToCart() {
+      const cartStore = useCartStore()
+      cartStore.addItem(this.product)
+      alert(`Pridané: ${this.product.name}`)
+    },
+    formatPrice(price) {
+      return price.toFixed(2) + ' €'
+    }
   }
 }
 </script>
