@@ -6,7 +6,7 @@
     "category": "semena",
     "description": "Prémiové sadeničky ruží v kontajneri – silné, zdravé a pripravené na okamžitú výsadbu. Klasika z dobrého dôvodu.",
     "price": 35.50,
-    "image": "./images/alexandru-boicu-_VDrIUJai58-unsplash.jpg"
+    "image": "images/alexandru-boicu-_VDrIUJai58-unsplash.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "category": "semena",
     "description": "Cibuľky ktoré vás nesklamú. Kvetina bez ktorej žiadna jarná záhrada nemôže existovať.",
     "price": 29.99,
-    "image": "./images/matteo-pilleri-Lw5gmJig69Q-unsplash.jpg"
+    "image": "images/matteo-pilleri-Lw5gmJig69Q-unsplash.jpg"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "category": "naradie",
     "description": "Pravá oceľ a cukrový javor. Funkčná ako nástroj alebo módny doplnok.",
     "price": 50,
-    "image": "./images/gryffyn-m-JR7IPWMMXcc-unsplash.jpg"
+    "image": "images/gryffyn-m-JR7IPWMMXcc-unsplash.jpg"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "category": "naradie",
     "description": "Profesionálne nožnice s ručným gravírovaním z rúk majstra Takeshiho.",
     "price": 120,
-    "image": "./images/anton-darius-1r5adiT3ps8-unsplash.jpg"
+    "image": "images/anton-darius-1r5adiT3ps8-unsplash.jpg"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "category": "hnojiva",
     "description": "Prémiové hnojivo. Keď aj susedné kvety vám musia závidieť.",
     "price": 22.30,
-    "image": "./images/jonathan-cooper-e9lyZg26V2A-unsplash.jpg"
+    "image": "images/jonathan-cooper-e9lyZg26V2A-unsplash.jpg"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "category": "hnojiva",
     "description": "Luxusný substrát pre luxusné záhrady.",
     "price": 20.50,
-    "image": "./images/moon-moons-rNwA1rVXxGA-unsplash.jpg"
+    "image": "images/moon-moons-rNwA1rVXxGA-unsplash.jpg"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "category": "ochrana",
     "description": "Nenechajte sa pripraviť o pýchu vášho domova obyčajným hmyzom. Najlepšia obrana je dobrý insekticíd.",
     "price": 80.50,
-    "image": "./images/mesto-sprayers-spruhgerate-KtU82_xkOJs-unsplash.jpg"
+    "image": "images/mesto-sprayers-spruhgerate-KtU82_xkOJs-unsplash.jpg"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "category": "naradie",
     "description": "Vyrábaná podľa starovekých tradícii. Dnešné nástroje sa nikdy nevyrovnajú klasike.",
     "price": 60.50,
-    "image": "./images/marko-m-EpIiqZ4poEQ-unsplash.jpg"
+    "image": "images/marko-m-EpIiqZ4poEQ-unsplash.jpg"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "category": "semena",
     "description": "Bohatstvo, láska a dobré manželstvo. Tieto prémiové korene vám dajú kvety, ktoré nemôžu chýbať na vašej záhrade.",
     "price": 45.50,
-    "image": "./images/daiga-ellaby-4qN8yPewMs0-unsplash.jpg"
+    "image": "images/daiga-ellaby-4qN8yPewMs0-unsplash.jpg"
   },
   {
     "id": 11,
@@ -87,7 +87,7 @@
     "category": "naradie",
     "description": "Aj kráľ potrebuje koníčky.",
     "price": 32.55,
-    "image": "./images/dmitriy-demidov-bPEiM19e_Qo-unsplash.jpg"
+    "image": "images/dmitriy-demidov-bPEiM19e_Qo-unsplash.jpg"
   },
   {
     "id": 12,
@@ -96,7 +96,7 @@
     "category": "semena",
     "description": "Pýcha, smútok a moc. Ideálne pre vdovy a cisárov, ktorých meno je známe vždy a všade.",
     "price": 22.50,
-    "image": "./images/yuliia-patrikhalkina-DI9VQBnOzro-unsplash.jpg"
+    "image": "images/yuliia-patrikhalkina-DI9VQBnOzro-unsplash.jpg"
   },
   {
     "id": 13,
@@ -105,6 +105,6 @@
     "category": "naradie",
     "description": "Prémiová kvalita a materiály. Kevlarové vlákna a pre ktorú sa vraždilo. Ochráni vás pred suchom alebo guľkami.",
     "price": 45.50,
-    "image": "./images/seiya-maeda-xbqLvtw_nd0-unsplash.jpg"
+    "image": "images/seiya-maeda-xbqLvtw_nd0-unsplash.jpg"
   }
 ]
