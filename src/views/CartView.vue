@@ -20,9 +20,9 @@
         >
           <div class="item-image">
             <img 
-                :src="getImagePath(item.image)"
-                :alt="item.name"
-                class="cart-img"
+              :src="getImagePath(item.image)"
+              :alt="item.name"
+              class="cart-img"
             >
           </div>
           
@@ -88,6 +88,10 @@ export default {
   methods: {
     ...mapActions(useCartStore, ['removeItem', 'increaseQuantity', 'decreaseQuantity', 'clearCart']),
     
+    getImagePath(imagePath) {
+      const cleanPath = imagePath.replace(/^[./]+/, '')
+      return `${import.meta.env.BASE_URL}${cleanPath}`
+    },
     getCategoryName(category) {
       const categories = {
         'semena': 'Semená a sadboviny',
@@ -112,13 +116,7 @@ export default {
     },
     formatPrice(price) {
       return price.toFixed(2) + ' €'
-    },
-    methods: {
-  getImagePath(imagePath) {
-    const cleanPath = imagePath.replace(/^[./]+/, '')
-    return `${import.meta.env.BASE_URL}${cleanPath}`
+    }
   }
-  }
-}
 }
 </script>
